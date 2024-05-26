@@ -1,7 +1,8 @@
 import { render } from "solid-js/web";
 
 import "./tailwind.css";
+import { App } from "./app";
 
 const appNode = document.getElementById("app");
 
-render(() => <div>Hello</div>, appNode!);
+render(() => <App />, appNode!);
